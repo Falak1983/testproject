@@ -1,5 +1,7 @@
+
+
 body {
-    background-color: rgb(230, 176, 223);
+    background-color: rgb(243, 234, 242);
   }
   h1 {
     color: blue;
@@ -47,3 +49,28 @@ a:link, a:visited {
     background: lightblue !important;
 }
 
+table, th, td {
+  border: 1px solid black;
+  
+  
+}
+table{
+  border-spacing: 15px;
+}
+th{
+background-color: lightgray;
+}
+th ,td { 
+padding: 5px;
+text-align: center;
+}
+#t01 tr:nth-child(even) {
+  background-color:rgba(128, 128, 128, 0.493);
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: rgba(0, 0, 0, 0.479);
+  color: white;
+}
