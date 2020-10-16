@@ -6,12 +6,7 @@ body {
     font-family: serif;
     font-size: 50px;
   }
-  p {
-    color: red;
-    border: 4px solid black;
-    margin: 30px;
-    padding: 10px;
-  }
+  
   h2{color: red;
 background-color: rgb(230, 176, 223);
 font-size: 18px;}
@@ -40,3 +35,15 @@ a:link, a:visited {
   a:hover, a:active {
     background-color: rgb(47, 0, 255);
   }
+
+ 
+  
+.bg-secondary{
+
+  background-color: blueviolet;
+}
+ 
+.bg-primary {
+    background: lightblue !important;
+}
+
