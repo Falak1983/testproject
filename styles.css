@@ -27,15 +27,15 @@ text-decoration: line-through;}
 a:active{color: darkorange;} */
 
 a:link, a:visited {
-    background-color: #f44336;
     color:black;
     padding: 15px 25px;
     text-decoration: none;
-  display:inline-block;
+    display:inline-block;
   }
   
   a:hover, a:active {
     background-color: rgb(47, 0, 255);
+    text-decoration: underline;
   }
 
  
@@ -73,4 +73,57 @@ text-align: center;
 #t01 th {
   background-color: rgba(0, 0, 0, 0.479);
   color: white;
+}
+#demo
+{
+background: red;
+
+
+}
+#nheader{
+ 
+ font-size: 50px;
+ padding: 30px;
+ border: solid 2px;
+ text-align: center;
+height: 200px;
+}
+footer{
+border: solid 2px;
+height: 200px;
+padding: 30px;
+text-align: center;
+font-size: 50px;
+}
+
+nav {
+  float: left;
+  width: 25%;
+  height: 400px;
+  background: #ccc;
+  padding: 20px;
+  border: solid 2px;
+}
+
+
+nav ul {
+font-size: 20px;
+  list-style-type: symbols();
+  padding: 0;
+  
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
 }
